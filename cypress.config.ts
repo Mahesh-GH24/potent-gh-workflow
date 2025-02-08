@@ -12,7 +12,7 @@ export default defineConfig({
   },
 
   e2e: {
-    baseUrl: 'http://localhost:3001',
+    baseUrl: 'https://potent-gh-workflow.onrender.com/',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },

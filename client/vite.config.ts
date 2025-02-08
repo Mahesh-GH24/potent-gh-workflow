@@ -9,7 +9,7 @@ export default defineConfig({
     open: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:3001',
+        target: 'https://potent-gh-workflow.onrender.com/',
         changeOrigin: true,
         secure: false,
       },
