@@ -1,4 +1,4 @@
-name: Checking Tests
+name: Checking Tests 1.0
 
 on:
   pull_request:
