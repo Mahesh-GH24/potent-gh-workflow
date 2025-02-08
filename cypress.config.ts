@@ -9,10 +9,11 @@ export default defineConfig({
       bundler: 'vite',
       viteConfig,
     },
+    specPattern: "cypress/component/**/*.cy.{js,ts,jsx,tsx}",
   },
 
   e2e: {
-    baseUrl: 'http://localhost:3001',
+    baseUrl: 'https://potent-gh-workflow.onrender.com/',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
