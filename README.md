@@ -4,7 +4,7 @@
    ## Description
 
    This application demonstrates CI/CD pipeline using GitHub Actions to run the component tests via Cypress when a pull request is made to the
-   develop branch.The application is only deployed via Render after a successful pull request from develop to main branch has been completed. The branches are also protected via branching rules.
+   develop branch.The application is only deployed via Render after a successful pull request from develop to main branch has been completed. The branches are also protected via branching rules.The application can be accessed at https://potent-gh-workflow.onrender.com/
 
    ## Table of Contents
 
